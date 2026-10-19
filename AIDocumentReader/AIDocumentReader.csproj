@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorStrap" Version="5.2.104" />
+    <PackageReference Include="BlazorStrap.V5" Version="5.2.104" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AIDocumentReader.Application\AIDocumentReader.Application.csproj" />
+    <ProjectReference Include="..\AIDocumentReader.Infrastracture\AIDocumentReader.Infrastracture.csproj" />
+  </ItemGroup>
+
+</Project>

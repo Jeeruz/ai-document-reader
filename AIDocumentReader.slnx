@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AIDocumentReader.Application/AIDocumentReader.Application.csproj" />
+  <Project Path="AIDocumentReader.Domain/AIDocumentReader.Domain.csproj" />
+  <Project Path="AIDocumentReader.Infrastracture/AIDocumentReader.Infrastracture.csproj" />
+  <Project Path="AIDocumentReader/AIDocumentReader.csproj" />
+</Solution>
