@@ -6,16 +6,12 @@
 <br/>
 
 <p>Click on the "Choose File" button to upload a file:</p>
+<InputFile OnChange="@LoadFiles" multiple /><BSButton Color="BSColor.Primary">Extract</BSButton>
 <br/>
-<form action="">
-  <input type="file" id="myFile" name="filename">
-  <input type="submit">
-</form>
-<br>
-
-<p>for="w3review">Review of W3Schools:</p>
-<br/>
-<textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
 <br/>
 
-<BSButton Color="BSColor.Primary">Random button</BSButton>
+<p>Results</p>
+<textarea id="w3review" name="w3review" rows="4" cols="50">@textArea</textarea>
+<br/>
+
+ 
