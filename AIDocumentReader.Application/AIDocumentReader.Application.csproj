@@ -10,4 +10,9 @@
     <ProjectReference Include="..\AIDocumentReader.Domain\AIDocumentReader.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Interface\" />
+    <Folder Include="Features\" />
+  </ItemGroup>
+
 </Project>

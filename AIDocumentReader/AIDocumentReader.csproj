@@ -17,4 +17,8 @@
     <ProjectReference Include="..\AIDocumentReader.Infrastracture\AIDocumentReader.Infrastracture.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\temp\" />
+  </ItemGroup>
+
 </Project>
